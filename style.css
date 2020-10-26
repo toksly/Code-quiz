@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+  }
+  nav {
+    padding-top: 0;
+  }
+  .higherscores {
+    float: left;
+    margin-left: 20px;
+    font-size: 15px;
+  }
+  .timectr {
+    float: right;
+    margin-right: 20px;
+    font-size: 15px;
+  }
+  
+  #minutes {
+    font-size: 3em;
+  }
+  #modal-container {
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+    background: #fefefe;
+    margin-top: auto;
+  }
+  
+  #seconds {
+    font-size: 2em;
+  }
+  #section1 {
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+  }
+  #end-screen {
+    width: 100%;
+    text-align: center;
+  }
+  
+  p {
+    font-size: 18px;
+  }
+  #quiz {
+    color: #ffffff;
+    background-color: teal;
+    font-size: 25px;
+  }
