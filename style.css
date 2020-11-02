@@ -1,51 +1,88 @@
 body {
-    margin: 0;
-    padding: 0;
-    background: #ffffff;
+    font-family: "Architects Daughter", cursive;
+    font-size: 150%;
   }
-  nav {
-    padding-top: 0;
-  }
-  .higherscores {
-    float: left;
-    margin-left: 20px;
-    font-size: 15px;
-  }
-  .timectr {
-    float: right;
-    margin-right: 20px;
-    font-size: 15px;
+  .wrapper {
+    margin: 100px auto 0 auto;
+    max-width: 600px;
   }
   
-  #minutes {
-    font-size: 3em;
-  }
-  #modal-container {
-    width: 100%;
-    text-align: center;
-    padding-top: 100px;
-    background: #fefefe;
-    margin-top: auto;
+  .hide {
+    display: none;
   }
   
-  #seconds {
-    font-size: 2em;
-  }
-  #section1 {
-    width: 100%;
-    text-align: center;
-    padding-top: 100px;
-  }
-  #end-screen {
-    width: 100%;
+  .start {
     text-align: center;
   }
   
-  p {
-    font-size: 18px;
+  .scores {
+    position: absolute;
+    top: 10px;
+    left: 10px;
   }
-  #quiz {
-    color: #ffffff;
-    background-color: teal;
-    font-size: 25px;
+  
+  .feedback {
+    font-style: italic;
+    font-size: 120%;
+    margin-top: 20px;
+    padding-top: 10px;
+    color: gray;
+    border-top: 2px solid #ccc;
+  }
+  
+  .timer {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.1s;
+  }
+  
+  a:hover {
+    color: #8c8c99;
+  }
+  
+  button {
+    display: inline-block;
+    margin: 5px;
+    cursor: pointer;
+    font-family: "Architects Daughter", cursive;
+    font-size: 100%;
+    background-color: rgb(128, 0, 0);
+    border-radius: 5px;
+    padding: 2px 10px;
+    color: white;
+    border: 0;
+    transition: background-color 0.1s;
+  }
+  
+  button:hover {
+    background-color: silver;
+  }
+  
+  .choices button {
+    display: block;
+  }
+  
+  input[type="text"] {
+    font-size: 100%;
+  }
+  
+  ol {
+    padding-left: 0px;
+    max-height: 400px;
+    overflow: auto;
+  }
+  
+  li {
+    padding: 5px;
+    list-style: decimal inside none;
+  }
+  
+  li:nth-child(odd) {
+    background-color: #f3edfc;
   }
