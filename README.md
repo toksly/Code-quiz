@@ -11,6 +11,7 @@ This application provides students a platform to use for taking timed quiz. It c
 - [Built with](#built-with)
 - [Usage](#usage)
 - [Contributors](#contributors)
+- [Acknowledgements](#acknowledgements)
 
 ---
 
@@ -50,6 +51,12 @@ Sylvester Nwizu
 ---
 
 [Back to Table of Contents](#table-of-contents)
+
+---
+
+## Acknowledgements
+
+[googleapis fonts](https://fonts.googleapis.com/)
 
 
 
